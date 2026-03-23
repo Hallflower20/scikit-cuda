@@ -51,7 +51,7 @@ except ImportError:
             p = subprocess.Popen(cmds, stdout=subprocess.PIPE,
                                  env=dict(os.environ, LANG="en"))
             out = p.communicate()[0].decode()
-        except:
+        except BaseException:
             raise RuntimeError('error executing {0}'.format(cmds))
 
         if sys.platform == 'darwin':
