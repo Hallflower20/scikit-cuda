@@ -50,11 +50,6 @@ for mod_name in MOCK_MODULES:
 import ctypes
 ctypes.cdll.LoadLibrary = Mock()
 
-# Prevent pkg_resources requirements checking from raising exceptions due to
-# missing dependencies:
-import pkg_resources
-pkg_resources.require = Mock()
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
