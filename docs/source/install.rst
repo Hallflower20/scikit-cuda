@@ -26,7 +26,7 @@ Installation Dependencies
 ``scikit-cuda`` requires that the following software packages be
 installed:
 
-* `Python <http://www.python.org>`_ 2.7 or 3.4.
+* `Python <http://www.python.org>`_ 3.
 * `Setuptools <http://pythonhosted.org/setuptools>`_ 0.6c10 or later.
 * `Mako <http://www.makotemplates.org/>`_ 1.0.1 or later.
 * `NumPy <http://www.numpy.org>`_ 1.2.0 or later.
