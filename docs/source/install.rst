@@ -42,7 +42,7 @@ are 64-bit.
 
 To run the unit tests, the following packages are also required:
 
-* `nose <http://code.google.com/p/python-nose/>`_ 0.11 or later.
+* `nose <https://nose.readthedocs.io/en/latest/>`_ 0.11 or later.
 * `SciPy <http://www.scipy.org>`_ 0.14.0 or later.
 
 Some of the linear algebra functionality relies on the CULA toolkit;
