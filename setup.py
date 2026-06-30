@@ -30,7 +30,6 @@ CLASSIFIERS = [
     'Programming Language :: Python :: 3',
     'Topic :: Scientific/Engineering',
     'Topic :: Software Development']
-NAMESPACE_PACKAGES = ['scikits']
 PACKAGES =           find_packages()
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
@@ -62,7 +61,6 @@ if __name__ == "__main__":
         description = DESCRIPTION,
         long_description = LONG_DESCRIPTION,
         url = URL,
-        namespace_packages = NAMESPACE_PACKAGES,
         packages = PACKAGES,
         include_package_data = True,
         install_requires = install_requires,

@@ -26,13 +26,13 @@ Installation Dependencies
 ``scikit-cuda`` requires that the following software packages be
 installed:
 
-* `Python <http://www.python.org>`_ 2.7 or 3.4.
+* `Python <http://www.python.org>`_ 3.
 * `Setuptools <http://pythonhosted.org/setuptools>`_ 0.6c10 or later.
 * `Mako <http://www.makotemplates.org/>`_ 1.0.1 or later.
-* `NumPy <http://www.numpy.org>`_ 1.2.0 or later.
-* `PyCUDA <http://mathema.tician.de/software/pycuda>`_ 2016.1 or later (some
+* `NumPy <https://numpy.org/>`_ 1.2.0 or later.
+* `PyCUDA <https://documen.tician.de/pycuda/>`_ 2016.1 or later (some
   parts of ``scikit-cuda`` might not work properly with earlier versions).
-* `NVIDIA CUDA Toolkit <http://www.nvidia.com/object/cuda_home_new.html>`_ 5.0
+* `NVIDIA CUDA Toolkit <https://docs.nvidia.com/cuda/index.html>`_ 5.0
   or later.
 
 Note that both Python and the CUDA Toolkit must be built for the same
@@ -42,8 +42,8 @@ are 64-bit.
 
 To run the unit tests, the following packages are also required:
 
-* `nose <http://code.google.com/p/python-nose/>`_ 0.11 or later.
-* `SciPy <http://www.scipy.org>`_ 0.14.0 or later.
+* `nose <https://nose.readthedocs.io/en/latest/>`_ 0.11 or later.
+* `SciPy <https://scipy.org/>`_ 0.14.0 or later.
 
 Some of the linear algebra functionality relies on the CULA toolkit;
 as of 2017, it is available to premium tier users of E.M. Photonics' HPC site
@@ -53,10 +53,10 @@ as of 2017, it is available to premium tier users of E.M. Photonics' HPC site
 
 To build the documentation, the following packages are also required:
 
-* `Docutils <http://docutils.sourceforge.net>`_ 0.5 or later.
-* `Jinja2 <http://jinja.pocoo.org>`_ 2.2 or later.
+* `Docutils <https://www.docutils.org/>`_ 0.5 or later.
+* `Jinja2 <https://jinja.palletsprojects.com/en/stable/>`_ 2.2 or later.
 * `Pygments <http://pygments.org>`_ 0.8 or later.
-* `Sphinx <http://sphinx.pocoo.org>`_ 1.0.1 or later.
+* `Sphinx <https://www.sphinx-doc.org/en/master/index.html>`_ 1.0.1 or later.
 * `Sphinx ReadTheDocs Theme
   <https://github.com/snide/sphinx_rtd_theme>`_ 0.1.6 or later.
 
